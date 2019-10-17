@@ -14,7 +14,7 @@ namespace Open_Lab_02._5
         private static bool IsDivisible(int number)
         {
             bool boolean = number % 100 == 0;
-            return !boolean;
+            return boolean;
 
         }
     }
